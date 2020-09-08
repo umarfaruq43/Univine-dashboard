@@ -1,0 +1,57 @@
+.top-nav {
+  margin-left: 200px;
+  padding: 14px;
+  border-bottom: 1px solid rgba(148, 148, 148, 0.397);
+  z-index: 6;
+  box-shadow: 0 0 10px #000;
+}
+
+.side-nav {
+  background-color: #343a40;
+  color: #fff;
+  width: 200px;
+  z-index: 5;
+  box-shadow: 0 0 10px rgb(47, 47, 47);
+}
+.side-nav a, {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.side-nav a:hover,
+.side-nav div:hover {
+  background-color: red;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+.table-drop {
+  color: #fff;
+  background-color: #666666;
+  left: 0;
+}
+
+.logo {
+  padding: 0;
+  margin: 8px 0;
+}
+.user {
+  padding: 0;
+  cursor: pointer;
+}
+.user img {
+  border-radius: 50%;
+  box-shadow: 0 0 5px #fff;
+  width: 35px;
+  max-height: 40px;
+}
+.user h4 {
+  font-weight: 400;
+  font-size: 1.2em;
+  padding-left: 7px;
+}
+.line {
+  border: 1px solid #666;
+  margin: 10px 0;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!--------- FONTAWESOME LINK ---------->
+    <script src="https://kit.fontawesome.com/20bdf30e52.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <link rel="stylesheet" href="icon/js/all.min.js">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;">
+
+
+    <!-----==================================SIDE NAV======================----->
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left side-nav" id="mySidebar">
+        <span class="w3-bar-item logo " style="cursor: pointer; border-bottom: 2px solid #666;">
+            <img src="img/kwasu.png" alt="kwasu-logo" width="40px">
+
+            <h3 class="d-inline">Kwasu</h3>
+        </span>
+        <span class="w3-bar-item user ">
+            <img src="img/edu-logo.jpg" alt="kwasu-logo">
+
+            <!-----====USERNAME=======----->
+            <h4 class="d-inline">
+                Umar Faruq
+            </h4>
+        </span>
+        <hr class="line">
+
+        <a href="#" class="w3-bar-item ">
+            <i class="fas fa- "></i>
+            Courses
+        </a>
+
+        <div class="w3-dropdown-hover w3-bar-item ">
+            <i class="fas fa- "></i>
+            Timetable
+            <i class="dropdown-toggle w3-right"></i>
+            <span class="w3-dropdown-content w3-bar-block  w3-animate-zoom table-drop">
+                <a href="#" class="w3-bar-item w3-button">Standard</a>
+                <a href="#" class="w3-bar-item w3-button">Departmental</a>
+
+            </span>
+        </div>
+
+
+        <a href="#" class="w3-bar-item ">
+            <i class="fas fa- "></i>
+            Pdf's
+        </a>
+        <a href="#" class="w3-bar-item ">
+            <i class="fas fa- "></i>
+            Past Questions
+        </a>
+        <a href="#" class="w3-bar-item ">
+            <i class="fas fa- "></i>
+            Snap Test
+        </a>
+        <a href="#" class="w3-bar-item ">
+            <i class="fas fa- "></i>
+            Meet
+        </a>
+        <a href="#" class="w3-bar-item ">
+            <i class="fas fa- "></i>
+            Settings
+        </a>
+    </div>
+
+    <!-----==========================TOP NAVBAR======================----->
+
+    <div class=" w3-main pl-3 w3-light-grey top-nav">
+        <button class="btn w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <a href="#" class="w3-bar-item ">Home</a>
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Dropdown</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button">Link 3</a>
+            </div>
+        </div>
+    </div>
+
+    <!-----==========================PAGE CONTENT======================----->
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div class="w3-main" style="margin-left:200px">
+        <div class="pt-1">
+
+            <div class="w3-container topic">
+                <h1>Welcome</h1>
+            </div>
+        </div>
+
+        <div class="w3-container">
+
+        </div>
+
+    </div>
+
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
