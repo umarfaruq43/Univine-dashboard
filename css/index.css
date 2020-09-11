@@ -1,3 +1,8 @@
+
+.box-shadow{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.561);
+}
+
 .top-nav {
   margin-left: 200px;
   padding: 14px;
@@ -71,12 +76,17 @@
 footer{
   width: 100%;
   text-align: center;
+  position:;
   bottom: 0;
   background-color: rgba(8, 8, 8, 0.733);
   color: #fff;
   padding: .5em;
 }
 
-/* *{
-  border: 1px solid red;
-} */
+/****************************
+============PDF PAGE========
+*****************************/
+
+.p-info i{
+  font-size: x-large;
+}

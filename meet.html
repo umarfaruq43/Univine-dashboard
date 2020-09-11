@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!--------- FONTAWESOME LINK ---------->
+    <script src="https://kit.fontawesome.com/20bdf30e52.js" crossorigin="anonymous"></script>
+
+    <title>MEET</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <link rel="stylesheet" href="icon/js/all.min.js">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body style="font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;">
+
+
+    <!-----==================================SIDE NAV======================----->
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left side-nav" id="mySidebar">
+        <span class="w3-bar-item logo " style="cursor: pointer; border-bottom: 2px solid #666;">
+            <img src="img/kwasu.png" alt="kwasu-logo" width="40px">
+
+            <h3 class="d-inline">Kwasu</h3>
+        </span>
+        <span class="w3-bar-item user ">
+            <img src="img/edu-logo.jpg" alt="kwasu-logo">
+
+            <!-----====USERNAME=======----->
+            <h4 class="d-inline">
+                Umar Faruq
+            </h4>
+        </span>
+        <hr class="line">
+
+        <a href="courses.html" class="w3-bar-item ">
+            <i class="fas fa-graduation-cap "></i>
+            Courses
+        </a>
+
+        <div class="w3-dropdown-hover w3-bar-item ">
+            <i class="fas fa-clipboard-list "></i>
+            Timetable
+            <i class="dropdown-toggle w3-right"></i>
+            <span class="w3-dropdown-content w3-bar-block  w3-animate-zoom table-drop">
+                <a href="#" class="w3-bar-item w3-button">Standard</a>
+                <a href="d_timetable.html" class="w3-bar-item w3-button">Departmental</a>
+
+            </span>
+        </div>
+
+
+        <a href="pdf.html" class="w3-bar-item ">
+            <i class="fas fa-file-pdf "></i>
+            Pdf's
+        </a>
+        <a href="past-question.html" class="w3-bar-item ">
+            <i class="fas fa-question "></i>
+            Past Questions
+        </a>
+        <a href="test.html" class="w3-bar-item ">
+            <i class="fas fa-brain "></i>
+            Snap Test
+        </a>
+        <a href="meet.html" class="w3-bar-item ">
+            <i class="fas fa-comments "></i>
+            Meet
+        </a>
+        <a href="schedule.html" class="w3-bar-item ">
+            <i class="fas fa-plane "></i>
+            Schedule
+        </a>
+        <a href="setting.html" class="w3-bar-item ">
+            <i class="fas fa-cog "></i>
+            Settings
+        </a>
+    </div>
+
+    <!-----==========================TOP NAVBAR======================----->
+
+    <div class=" w3-main pl-3 w3-light-grey top-nav">
+        <button class="btn w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <a href="#" class="w3-bar-item ">Home</a>
+        <div class="w3-dropdown-hover">
+            <span class="">Dropdown</span>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Link 1</a>
+                <a href="#" class="w3-bar-item w3-button">Link 2</a>
+                <a href="#" class="w3-bar-item w3-button">Link 3</a>
+            </div>
+        </div>
+        <a href="#" class="w3-bar-item w3-right">
+            <i class="fas fa-bell"></i>
+        </a>
+    </div>
+
+    <!-----==========================PAGE CONTENT======================----->
+    <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+    <div class="w3-main" style="margin-left:200px">
+        <div class="pt-1 ">
+
+            <div class="container topic mt-4">
+                <h1 class="">MEET</h1>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-third my-3">
+                <div class="card mt-3 box-shadow">
+                    <img class="card-img-top" src="img/person_1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="">John Doe</h4>
+                        <div class="w3-row text-center p-info">
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-comments"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="w3-third my-3">
+                <div class="card mt-3 box-shadow">
+                    <img class="card-img-top" src="img/person_4.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="">John Doe</h4>
+                        <div class="w3-row text-center p-info">
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-comments"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-third my-3">
+                <div class="card mt-3 box-shadow">
+                    <img class="card-img-top" src="img/person_3.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="">John Doe (Class rep)</h4>
+                        <div class="w3-row text-center p-info">
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-comments"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-third my-3">
+                <div class="card mt-3 box-shadow">
+                    <img class="card-img-top" src="img/person_3.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="">John Doe (Ass Class rep)</h4>
+                        <div class="w3-row text-center p-info">
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-comments"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="w3-third my-3">
+                <div class="card mt-3 box-shadow">
+                    <img class="card-img-top" src="img/person_2.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="">John Doe</h4>
+                        <div class="w3-row text-center p-info">
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-comments"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-third my-3">
+                <div class="card mt-3 box-shadow">
+                    <img class="card-img-top" src="img/person_1.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="">John Doe</h4>
+                        <div class="w3-row text-center p-info">
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-comments"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fas fa-phone"></i>
+                                </a>
+                            </div>
+                            <div class="w3-col s4">
+                                <a href="">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-----==========================FOOTER CONTENT======================----->
+    <footer>
+        <div class="foot">
+            &copy; Copyright 2020 Prince_umar
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+
+            document.getElementById("myOverlay").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
