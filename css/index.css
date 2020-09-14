@@ -6,6 +6,7 @@
 .top-nav {
   /* border-bottom: 1px solid rgba(148, 148, 148, 0.808); */
   /* z-index: 6; */
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.309);
 }
 .part{
   margin-left:200px
