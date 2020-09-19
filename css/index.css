@@ -1,24 +1,20 @@
-
-.box-shadow{
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.561);
-}
-
 .top-nav {
-  /* border-bottom: 1px solid rgba(148, 148, 148, 0.808); */
-  /* z-index: 6; */
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.309);
+  /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.309); */
+  border-bottom: 1px solid rgba(102, 102, 102, 0.303);
 }
-.part{
-  margin-left:200px
+.part {
+  margin-left: 200px;
 }
-
+.part li  a{
+  color: #f9d342;
+  font-weight: bolder;
+}
 
 .side-nav {
-  background-color: #343a40;
+  background-color: #292826;
   color: rgba(255, 255, 255, 0.445);
   width: 200px;
   z-index: 5;
-  box-shadow: 0 0 10px rgb(47, 47, 47);
 }
 .side-nav a,
 .side-nav div {
@@ -29,13 +25,13 @@
 .side-nav a i,
 .side-nav div i {
   font-size: 1.7rem;
-  padding:.2em .5rem ;
-  color: rgba(255, 255, 255, 0.739);
+  padding: 0.2em 0.5rem;
+  color: #f9d342;
 }
 
 .side-nav a:hover,
 .side-nav div:hover {
-  background-color: #666;
+  background-color: #000;
   cursor: pointer;
   text-decoration: none;
   color: #fff;
@@ -45,61 +41,64 @@
   background-color: #666666;
   left: 0;
 }
-
+/*******************LOGO AND USER EDIT**********************/
 .logo {
   padding: 0;
-  margin: 8px 0;
+  margin: 0;
+  cursor: pointer;
+}
+.logo img {
+  width: 40px;
+  max-height: 4 0px;
 }
 .user {
-  padding: 0;
+  margin: 0.5em 0;
   cursor: pointer;
 }
 .user img {
   border-radius: 50%;
   box-shadow: 0 0 5px #fff;
-  width: 35px;
-  max-height: 40px;
+  width: 40px;
+  max-height: 50px;
 }
 .user h4 {
   font-weight: 400;
   font-size: 1.2em;
   padding-left: 7px;
 }
+
 .line {
   border: 1px solid #666;
-  margin: 10px 0;
+  margin: 0 0;
 }
 
-/********************/
-.topic h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/******======CONTENT======*****/
+.content {
+  background-color: #f4f6f9;
+  padding-bottom:1.5em;
+}
+
+.topic h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 /********************/
-footer{
+footer {
   width: 100%;
   text-align: center;
-  position:;
+  position: fixe;
   bottom: 0;
-  background-color: rgba(8, 8, 8, 0.733);
+  background-color: #292826;
   color: #fff;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 /****************************
 ============PDF PAGE========
 *****************************/
 
-.p-info i{
+.p-info i {
   font-size: x-large;
 }
-
-
-/*
-============RESPONSIVENESS========
-*/
-
-@media screen and (max-width: 992px){
- .part{
-   margin-left:0;
- }
+.foot {
+  font-size: 0.9em;
 }
