@@ -81,6 +81,42 @@
 .topic h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+.small-box{
+  padding: 5%;
+  border-radius: 7px;
+}
+
+/****************************
+============GENERAL PAGE EDIT========
+*****************************/
+.card-header{
+
+}
+
+.card-footer i{
+  color: #DC3545;
+  font-size: 1.2em;
+}
+.card-footer {
+  font-weight: bold;
+  color: #f9d342;
+  background-color: #292826;
+}
+
+
+
+
+/****************************
+============PDF PAGE========
+*****************************/
+.p-info i {
+  font-size: x-large;
+}
+.foot {
+  font-size: 0.9em;
+}
+
 /********************/
 footer {
   width: 100%;
@@ -91,14 +127,17 @@ footer {
   color: #fff;
   padding: 0.5em;
 }
-
-/****************************
-============PDF PAGE========
-*****************************/
-
-.p-info i {
-  font-size: x-large;
+.top{
+  margin: 0;
+  padding: 0;
 }
-.foot {
-  font-size: 0.9em;
+footer a{
+  font-size: 1.7em;
+  margin: .2em;
+  color: #f9d342;
+}
+footer a:hover{
+  text-decoration: none;
+  color: #f4f6f9;
+
 }
